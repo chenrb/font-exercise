@@ -34,13 +34,13 @@ body {
     margin-top: 0px;
     margin-bottom: 0px; 
 }
-#skill-introduce>ul {
+#skill-introduce ul {
     height: 36px;
     padding: 0;
 }
-#skill-introduce>ul>li {
+#skill-introduce>dt>ul>li {
     height: 36px;
-    width: 24.5%;
+    width: 143px;;
     list-style: none; 
     float: left;
     text-align: center;
@@ -51,8 +51,30 @@ body {
     border: 1px solid #202122;
     line-height: 36px;
 }
-#skill-introduce>ul>li img {
+#skill-introduce ul>li>img {
     width: 28px;
     height: 28px;
-    vertical-align:middle;
+    vertical-align:middle;  
+}
+dd {
+    margin-left: 0px;
+}
+.skill-wrap {
+    width: 580px;
+    height: 297px;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-top: 30px;
+    background-color: #141516;
+}
+.skill-wrap img {
+    position: absolute;
+    left: 30px;
+}
+.skill-info {
+    position: absolute;
+    left: 200px;
+}
+.skill-intro {
+    color: aliceblue;
 }
