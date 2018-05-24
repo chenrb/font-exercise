@@ -1,12 +1,23 @@
 body {
-    background: url('background.jpg')
+    margin: 0;
+    font-family: "宋体","微软雅黑",Arial, Helvetica, sans-serif;
+    color: #6e6e6e;
+}
+.background {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1366px;
+    height: 768px;
+    background: url('background.jpg') no-repeat;
 }
 .skill {
     width: 600px;
     background-color: black;
     position: absolute;
     left: 700px;
-    top: 100px;
+    top: 20%;
 }
 .title {
     height: 45px;
@@ -73,8 +84,15 @@ dd {
 }
 .skill-info {
     position: absolute;
-    left: 200px;
+    left: 150px;
+    right: 20px;
 }
 .skill-intro {
-    color: aliceblue;
+    margin-top: 0;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.skill-intro span {
+    font: bold 20px/36px "微软雅黑";
+    color: #c0c0c0;
 }
