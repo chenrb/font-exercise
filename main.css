@@ -1,0 +1,58 @@
+body {
+    background: url('background.jpg')
+}
+.skill {
+    width: 600px;
+    background-color: black;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+.title {
+    height: 45px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: 45px;
+    font-family: 微软雅黑;
+    color:rgb(192,192,192);
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(69, 29, 25);
+    text-indent: 10px;
+}
+.skill-box {
+    padding: 10px;
+    background-color: #0f0f0f;
+}
+#skill-introduce, #skill-introduce ul{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+#skill-introduce>ul {
+    height: 36px;
+    padding: 0;
+}
+#skill-introduce>ul>li {
+    height: 36px;
+    width: 24.5%;
+    list-style: none; 
+    float: left;
+    text-align: center;
+    font: normal 14px/30px "微软雅黑";
+    cursor: pointer;
+    color: #6e6e6e;
+    background-color: #141516;
+    border: 1px solid #202122;
+    line-height: 36px;
+}
+#skill-introduce>ul>li img {
+    width: 28px;
+    height: 28px;
+    vertical-align:middle;
+}
