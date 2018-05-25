@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>Jugg</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="static/css/main.css" />
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/main.js"></script>
 </head>
 
 <body>
@@ -19,26 +20,26 @@
                     <dt>
                         <ul>
                             <li>
-                                <img src="剑刃风暴.png">剑刃风暴
+                                <img src="static/image/剑刃风暴.png">剑刃风暴
                             </li>
                             <li>
-                                <img src="治疗守卫.png">治疗守卫
+                                <img src="static/image/治疗守卫.png">治疗守卫
                             </li>
                             <li>
-                                <img src="剑舞.png">剑舞
+                                <img src="static/image/剑舞.png">剑舞
                             </li>
                             <li>
-                                <img src="无敌斩.png">无敌斩
+                                <img src="static/image/无敌斩.png">无敌斩
                             </li>
                         </ul>
                     </dt>
                     <dd>
                         <div class="skill-wrap">
-                            <img src="剑刃风暴.png">
+                            <img src="static/image/剑刃风暴.png">
                             <div class="skill-info">
                                 <p class="skill-intro">
                                     <span>剑刃风暴</span>
-                                    <br> 舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。驱散类型：弱驱散
+                                    <br> 舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。驱散类型：弱驱散。
                                 </p>
                                 <div class="xiaohao_wrap">
                                     <div class="icon_xh">
@@ -66,9 +67,110 @@
                             无论是战士还是法师，都害怕尤涅若的武士刀剑技。
                         </div>
                     </dd>
-                    <dd></dd>
-                    <dd></dd>
-                    <dd></dd>
+                    <dd>
+                        <div class="skill-wrap">
+                            <img src="static/image/治疗守卫.png">
+                            <div class="skill-info">
+                                <p class="skill-intro">
+                                    <span>治疗守卫</span>
+                                    <br>召唤一个治疗守卫，按周围友军单位最大生命值的一定比例治疗他们。治疗守卫可以移动，移动速度为420。持续25秒。
+                                </p>
+                                <p class="green">
+                                    可以控制治疗守卫。
+                                    <br>多个治疗守卫的效果不会叠加。
+                                </p>
+                                <div class="xiaohao_wrap">
+                                    <div class="icon_xh">
+                                        魔法消耗：140
+                                    </div>
+                                    <div class="icon_lq">
+                                        冷却时间：60.0/60.0/60.0/60.0
+                                    </div>
+                                </div>
+                                <ul class="skill_ul clearfix">
+                                    <li>
+                                        <span class="color_white">技能:</span>点目标 </li>
+                                    <li>
+                                        <span class="color_white">每秒最大生命值回复:</span>2%/3%/4%/5% </li>
+                                    <li>
+                                        <span class="color_white">持续时间：</span>25 </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="skill-bot">
+                            这是主宰在遮面之岛学到的一项惯用技巧，战斗证明会使用一点巫毒魔法治疗伤口是很有效的。
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="skill-wrap">
+                            <img src="static/image/剑舞.png">
+                            <div class="skill-info">
+                                <p class="skill-intro">
+                                    <span>剑舞</span>
+                                    <br> 主宰有一定概率在攻击时造成双倍伤害。
+                                </p>
+                                <div class="xiaohao_wrap">
+                                    <div class="icon_xh">
+                                        魔法消耗：0
+                                    </div>
+                                    <div class="icon_lq">
+                                        冷却时间：0
+                                    </div>
+                                </div>
+                                <ul class="skill_ul clearfix">
+                                    <li>
+                                        <span class="color_white">技能:</span>被动 </li>
+                                    <li>
+                                        <span class="color_white">致命一击概率:</span>20%/25%/30%/35% </li>
+                                    <li>
+                                        <span class="color_white">致命一击伤害：</span>180% </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="skill-bot">
+                            作为他对剑技传承的最后承诺，尤涅若立誓将使此剑技为世人所铭记。
+                        </div>
+                    </dd>
+                    <dd>
+                        <div class="skill-wrap">
+                            <img src="static/image/无敌斩.png">
+                            <div class="skill-info">
+                                <p class="skill-intro">
+                                    <span>无敌斩</span>
+                                    <br> 主宰挥剑跃向敌人，随后再斩击附近的其它敌方单位，每次斩击造成200-225点伤害。主宰在无敌斩期间无敌。可用神杖升级。
+                                </p>
+                                <p class="green">
+                                    无敌斩期间可以使用物品。
+                                    <br> 可以对技能免疫单位施放。
+                                    <br> 每次斩击的间隔是0.4秒。
+                                    <br>小兵和中立生物只须一次斩击就被秒杀。
+                                </p>
+                                <div class="xiaohao_wrap">
+                                    <div class="icon_xh">
+                                        魔法消耗：120/110/100/90
+                                    </div>
+                                    <div class="icon_lq">
+                                        冷却时间：42/34/26/18
+                                    </div>
+                                </div>
+                                <ul class="skill_ul clearfix">
+                                    <li>
+                                        <span class="color_white">技能:</span>无目标 </li>
+                                    <li>
+                                        <span class="color_white">伤害类型:</span>魔法 </li>
+                                    <li>
+                                        <span class="color_white">作用范围：</span>250 </li>
+                                    <li>
+                                        <span class="color_white">伤害：</span>80/105/130/155 </li>
+                                    <li>
+                                        <span class="color_white">持续时间：</span>5.0 </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="skill-bot">
+                            “自律已有成果；勤练带来力量。”
+                        </div>
+                    </dd>
                 </dl>
             </div>
         </div>

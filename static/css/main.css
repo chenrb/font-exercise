@@ -10,7 +10,7 @@ body {
     right: 0;
     width: 1366px;
     height: 768px;
-    background: url('background.jpg') no-repeat;
+    background: url('../image/background.jpg') no-repeat;
 }
 .skill {
     width: 600px;
@@ -71,10 +71,11 @@ dd {
     margin-left: 0px;
 }
 .skill-wrap {
-    height: 237px;
+    height: 270px;
     margin-top: 5px;
     margin-left: 0px;
     padding-top: 30px;
+    padding-bottom: 10px;
     background-color: #141516;
 }
 .skill-wrap img {
@@ -82,7 +83,8 @@ dd {
     left: 30px;
 }
 .skill-info {
-    position: absolute;
+    position: relative;
+    width: 420px;
     left: 150px;
     right: 20px;
 }
@@ -95,6 +97,10 @@ dd {
 .skill-intro span {
     font: bold 20px/36px "微软雅黑";
     color: #c0c0c0;
+}
+.green {
+    font-size: 10px;
+    color: #6fe771;
 }
 .xiaohao_wrap {
     height: 24px;
@@ -110,10 +116,10 @@ dd {
     font-size: 10px;
 }
 .icon_xh {
-    background: url('icon_xiaohao.png') no-repeat;
+    background: url('../image/icon_xiaohao.png') no-repeat;
 }
 .icon_lq {
-    background: url('icon_lengque.png') no-repeat;
+    background: url('../image/icon_lengque.png') no-repeat;
 }
 .skill_ul clearfix {
     width: 300px;
