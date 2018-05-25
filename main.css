@@ -71,8 +71,7 @@ dd {
     margin-left: 0px;
 }
 .skill-wrap {
-    width: 580px;
-    height: 297px;
+    height: 237px;
     margin-top: 5px;
     margin-left: 0px;
     padding-top: 30px;
@@ -91,8 +90,49 @@ dd {
     margin-top: 0;
     padding-bottom: 10px;
     line-height: 20px;
+    font-size: 10px;
 }
 .skill-intro span {
     font: bold 20px/36px "微软雅黑";
     color: #c0c0c0;
+}
+.xiaohao_wrap {
+    height: 24px;
+    padding: 15px 0;
+    overflow: hidden;
+}
+.xiaohao_wrap div {
+    float: left;
+    width: 180px;
+    height: 24px;
+    padding-left: 30px;
+    line-height: 24px;
+    font-size: 10px;
+}
+.icon_xh {
+    background: url('icon_xiaohao.png') no-repeat;
+}
+.icon_lq {
+    background: url('icon_lengque.png') no-repeat;
+}
+.skill_ul clearfix {
+    width: 300px;
+    height: 60px;
+}
+.skill-info li {
+    list-style: none;
+    float: left;
+    font-size: 10px;
+    width: 210px;
+    margin-bottom: 5px;
+}
+.skill-info li span {
+    color: #c0c0c0;
+}
+.skill-bot {
+    height: 32px; 
+    line-height: 32px;
+    background-color: rgb(25,26,27);
+    text-align: center;
+    font-size: 10px;
 }
